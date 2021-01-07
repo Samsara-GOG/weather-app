@@ -16,6 +16,7 @@ body {
   background-position: center;
   color: #fff;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
 }
 
 html, 
@@ -106,7 +107,7 @@ a:link
 }
 
 label {
-  font-size: 18px;
+  font-size: 14px;
   color: black;
   margin-right: 5px;
   margin-bottom: 5px;
