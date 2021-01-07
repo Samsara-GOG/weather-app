@@ -1,0 +1,143 @@
+.btn-select-location {
+  background-color: #37b5e2;
+  font-size: 16px;
+  font-weight: 350;
+  font-family: Robot, sans-serif;
+  border-radius: 10px;
+  color: white;
+  text-shadow:rgb(80, 80, 80);
+  margin: 5px 5px 5px 0;
+  position: relative;
+  left: 350px;
+  bottom: 150px;
+}
+
+.box-select-location {
+  border: 2px solid white;
+  background-color: #257fa0;
+  font-size: 16px;
+  font-family: Robot, sans-serif;
+  font-weight: 450;
+  border-radius: 10px;
+  color: white;
+  margin: 5px 5px 5px 0;
+  position: relative;
+  left: 236px;
+  bottom: 50px;
+}
+
+.img {
+  max-width: 100%;
+} 
+
+.img__today {
+  height: 135px;
+  max-width: 100%;
+  margin-bottom: 75px;
+}
+
+.block__today {
+  border: 1px solid #D2D2D2;
+  background-color: rgba(17, 17, 17, 0.45);
+  border-radius: 25px;
+  border-bottom: none;
+  box-shadow: 8px 8px 12px #aaa;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+  margin-top : 16px;
+  height: 375px;
+  width: 50%;
+}
+
+.day {
+  margin: 0 auto;
+  position: relative;
+  bottom: 70px;
+  text-align: center;
+}
+
+.day-name {
+  margin-top: 10px;
+  font-size: 0.99rem;
+}
+
+.city_name {
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  max-width: 400px;
+}
+
+.hide {
+  display: none;
+}
+
+.block__today-text {
+  font-size: 1.7rem;
+}
+
+#temperature {
+  font-size: 45px;
+}
+
+.temp {
+  margin-top: 10px;
+  font-size: 35px;
+}
+
+.temp2 {
+  font-size: 1.4rem;
+  margin-bottom: 0;
+}
+
+.other__temp {
+  font-size: 25px;
+  margin: 0;
+}
+
+div.day {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.other-day {
+  flex: 1 0;
+}
+
+div.other-day:nth-child(1) {
+  position: absolute;
+  display: none;
+}
+
+.other__descrip {
+  font-size: 0.699rem;
+  margin-bottom: 5px;
+}
+
+.other-day {
+  display: inline-block;
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #D2D2D2;
+  background-color: rgba(130, 130, 130, 0.65);
+  box-shadow: 8px 8px 12px #aaa;
+  border-radius: 35px;
+  width: 220px;
+  margin: 8px 8px 0 8px;
+}
+
+.weather {
+  width: 250%;
+}
+
+.validation_city {
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid grey;
+  box-shadow: 8px 8px 12px #aaa;
+  padding: 10px;
+  margin-left: 25px;
+}
