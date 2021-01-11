@@ -67,7 +67,7 @@ export default class TodayWeather extends React.Component {
                     <input
                       id="location-name"
                       type="text"
-                      placeholder="Nom Ville"
+                      placeholder="Ville"
                       onChange={this.onLocationNameChange.bind(this)}
                     />
                     <button

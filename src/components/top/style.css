@@ -13,7 +13,6 @@
 }
 
 .box-select-location {
-  border: 2px solid white;
   background-color: #257fa0;
   font-size: 16px;
   font-family: Robot, sans-serif;
@@ -32,7 +31,7 @@
 
 .img__today {
   height: 135px;
-  max-width: 100%;
+  max-width: 140%;
   margin-bottom: 25px;
 }
 
