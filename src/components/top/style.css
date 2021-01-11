@@ -8,8 +8,8 @@
   text-shadow:rgb(80, 80, 80);
   margin: 5px 5px 5px 0;
   position: relative;
-  left: 350px;
-  bottom: 150px;
+  left: 566px;
+  bottom: 441px;
 }
 
 .box-select-location {
@@ -27,13 +27,13 @@
 }
 
 .img {
-  max-width: 100%;
+  max-width: 50%;
 } 
 
 .img__today {
   height: 135px;
   max-width: 100%;
-  margin-bottom: 75px;
+  margin-bottom: 25px;
 }
 
 .block__today {
@@ -47,12 +47,12 @@
   justify-content: space-evenly;
   align-items: center;
   margin: 0 auto;
-  margin-top : 16px;
+  margin-top : 140px;
   height: 375px;
-  width: 50%;
+  width: 55%;
 }
 
-.day {
+.day, .day2 {
   margin: 0 auto;
   position: relative;
   bottom: 70px;
@@ -60,15 +60,15 @@
 }
 
 .day-name {
-  margin-top: 10px;
+  margin: 0;
   font-size: 0.99rem;
 }
 
 .city_name {
   margin: 0;
   padding: 0;
-  font-size: 40px;
-  max-width: 400px;
+  display: block;
+  width: 250px;
 }
 
 .hide {
@@ -77,6 +77,9 @@
 
 .block__today-text {
   font-size: 1.7rem;
+  position: relative;
+  right: 50px;
+  width: 100px;
 }
 
 #temperature {
@@ -94,7 +97,7 @@
 }
 
 .other__temp {
-  font-size: 25px;
+  font-size: 1.2rem;
   margin: 0;
 }
 
@@ -107,9 +110,15 @@ div.other-day {
   flex: 1 0;
 }
 
-div.other-day:nth-child(1) {
-  position: absolute;
+div.other-day:nth-child(1), .other-day:nth-child(6), .other-day:nth-child(7),
+.other-day:nth-child(8) {
   display: none;
+}
+
+.describ {
+  display: block;
+  width: 250px;
+  font-size: 1.2rem;
 }
 
 .other__descrip {
@@ -120,12 +129,11 @@ div.other-day:nth-child(1) {
 .other-day {
   display: inline-block;
   padding: 8px;
-  text-align: center;
   border: 1px solid #D2D2D2;
   background-color: rgba(130, 130, 130, 0.65);
   box-shadow: 8px 8px 12px #aaa;
   border-radius: 35px;
-  width: 220px;
+  width: 140px;
   margin: 8px 8px 0 8px;
 }
 

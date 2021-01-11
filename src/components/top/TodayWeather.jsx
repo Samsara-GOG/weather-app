@@ -39,7 +39,7 @@ export default class TodayWeather extends React.Component {
 
     return (
       <div className="top-container">
-        <div className="title">Ma Météo</div>
+        <div className="title">Ma Météo sur 5 jours</div>
         <Weather {...this.props} />
         <Manager>
           <Reference>

@@ -26,6 +26,10 @@ body,
   height: 100%;
 }
 
+h1 {
+  display: none;
+}
+
 .clear {
   background-image: url(ressources/images/sunny.jpg);
 }
@@ -68,6 +72,7 @@ background-image: url(ressources/images/thunderstorm.jpg);
 .title {
   padding-top: 10px;
   text-align: center;
+  display:none;
 }
 
 a:link 
@@ -81,8 +86,6 @@ a:link
   font-weight: 370;
   color:rgb(118, 36, 177);
   display: block;
-  margin: 0 auto;
-  margin-top:-45px;
   text-shadow: 5px 5px 0 5px rgba(2, 2, 2, 1);
 }
 /* formulaire */

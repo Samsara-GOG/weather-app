@@ -91,7 +91,6 @@ class App extends Component {
         </div>}
         <div className='day'>
           <OtherDayWeather forecastdays={forecastdays}/>
-        <a className="footer" href="mailto:samsaraonaya@gmail.com">Développé par Samsara</a>
         </div>
       </div>
 

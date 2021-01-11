@@ -14,11 +14,11 @@ export default class OtherDayWeather extends React.Component {
     const { forecastdays } = this.props;
     return (
       
-      <div className='day'>
+      <div className="day2">
         {forecastdays &&
           forecastdays.map((day, idx) => {
             return <Forcastday day={day} key={idx} />
-              })}
+          })}
       </div>
     );
   }

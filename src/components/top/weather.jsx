@@ -15,10 +15,10 @@ export default class Weather extends React.Component {
       <img className="img__today" src={ iconDay } alt="météo du jour" /> 
       <div className='block__today-text'>
         <span className='today_day'>Aujourd'hui</span>
-        <h1 className='city_name' id="ville">{ location }</h1>
-        <div className="hide">{conditions}</div>
+        <h2 className='city_name' id="ville">{ location }</h2>
+        <span className="hide">{conditions}</span>
         <span id="temperature">{ Math.round(temperature) }°C</span><span id="conditions"></span>
-        < div className="describ">{<CapitalizedText text={weatherDescription}/>}</div>
+        <span className="describ">{<CapitalizedText text={weatherDescription}/>}</span>
       </div>
     </div>
     
