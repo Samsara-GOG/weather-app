@@ -26,33 +26,34 @@ class App extends Component {
       return res.data;
     })
     .then((data) => {
-     const latitude = data[0].lat;
-     const longitude = data[0].lon;
+      const latitude = data[0].lat;
+      const longitude = data[0].lon;
      
-     
-    const URL2 = `https://api.openweathermap.org/data/2.5/onecall?lat=${latitude}&lon=${longitude}&appid=${WEATHER_KEY}&units=metric&lang=fr&exclude=minutely,hourly,alerts`
-    axios
-    .get(URL2)
-    .then((res) => {
-      return res.data;
-    })
-    .then((data) => {
-      this.setState({ 
-        isLoading: false,
-        temperature: data.current.temp, 
-        conditions: data.current.weather[0].main,
-        weatherDescription: data.current.weather[0].description,
-        weatherIcon: data.current.weather[0].icon,
-        forecastdays: data.daily
-      });
-      document.body.className = `${this.state.conditions.toLocaleLowerCase()}`;
+      const URL2 = `https://api.openweathermap.org/data/2.5/onecall?lat=${latitude}&lon=${longitude}&appid=${WEATHER_KEY}&units=metric&lang=fr&exclude=minutely,hourly,alerts`
+      axios
+      .get(URL2)
+      .then((res) => {
+        return res.data;
+      })
+      .then((data) => {
+        this.setState({ 
+          isLoading: false,
+          temperature: data.current.temp, 
+          conditions: data.current.weather[0].main,
+          weatherDescription: data.current.weather[0].description,
+          weatherIcon: data.current.weather[0].icon,
+          forecastdays: data.daily
+        });
+        document.body.className = `${this.state.conditions.toLocaleLowerCase()}`;
+      })
 
-    })
-    .catch((err) => {
-      if(err) console.error("Ne parviens pas à récupérer les données météo à partir de l'API, ", err);
-    });
+      .catch((err) => {
+        if(err) console.error("Ne parviens pas à récupérer les données météo à partir de l'API, ", err);
+      });
+    
     }) 
-}
+  }
+
   componentDidMount() {
     const { eventEmitter } = this.props;
     this.updateWeather();
