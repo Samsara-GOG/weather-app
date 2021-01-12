@@ -9,8 +9,8 @@ export default class Weather extends React.Component {
   render() {
     const { location, temperature, conditions, weatherDescription, weatherIcon } = this.props;
     const iconDay = `http://openweathermap.org/img/wn/${weatherIcon}@2x.png`;
-    <CapitalizedText text={(weatherDescription)}/>
-   return (
+
+    return (
     <div className="block__today">
       <img className="img__today" src={ iconDay } alt="météo du jour" /> 
       <div className='block__today-text'>
