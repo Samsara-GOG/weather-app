@@ -5,6 +5,7 @@ export default class Forcastday extends React.Component {
   constructor(props) {
     super(props);
   }
+
   render() {
     const { day } = this.props;
     const dayName = new Date(day.dt * 1000).toLocaleString("fr-FR", {weekday:"long"});

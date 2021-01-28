@@ -6,7 +6,7 @@ import OtherDayWeather from './components/bottom/OtherDayWeather';
 
 import axios from 'axios';
 
-const WEATHER_KEY = '8c3a54c385c9c9d874d88f2cd6b3dda8';
+const WEATHER_KEY = '27d368348c8c19ef439a7407b82d0808';
 
 class App extends Component {
   constructor(props) {
