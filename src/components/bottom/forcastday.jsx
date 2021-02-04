@@ -11,7 +11,7 @@ export default class Forcastday extends React.Component {
     const dayName = new Date(day.dt * 1000).toLocaleString("fr-FR", {
       weekday: "long",
     });
-    const iconDay = `http://openweathermap.org/img/wn/${day.weather[0].icon}@2x.png`;
+    const iconDay = `https://openweathermap.org/img/wn/${day.weather[0].icon}@2x.png`;
     const temp = day.temp.day;
     const desc = day.weather[0].description;
 

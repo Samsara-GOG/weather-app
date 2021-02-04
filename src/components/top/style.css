@@ -192,11 +192,11 @@ div.other-day:nth-child(1), .other-day:nth-child(6), .other-day:nth-child(7),
   }
 }
 
-  @media screen and (min-width: 851px) {
-    .btn-select-location {
-      position: relative;
-      left: 450px;
-      bottom: 441px;
-    }
+@media screen and (min-width: 851px) {
+  .btn-select-location {
+    position: relative;
+    left: 450px;
+    bottom: 441px;
+  }
 
 }

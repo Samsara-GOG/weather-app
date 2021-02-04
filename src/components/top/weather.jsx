@@ -14,7 +14,7 @@ export default class Weather extends React.Component {
       weatherDescription,
       weatherIcon,
     } = this.props;
-    const iconDay = `http://openweathermap.org/img/wn/${weatherIcon}@2x.png`;
+    const iconDay = `https://openweathermap.org/img/wn/${weatherIcon}@2x.png`;
 
     return (
       <div className="block__today">
