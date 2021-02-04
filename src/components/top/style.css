@@ -152,6 +152,10 @@ div.other-day:nth-child(1), .other-day:nth-child(6), .other-day:nth-child(7),
 
  
 @media screen and (min-width: 320px) and (max-width: 540px)  {
+  body {
+    overflow: auto;
+  }
+  
   .btn-select-location {
     position: relative;
     left: 20px;
@@ -176,7 +180,8 @@ div.other-day:nth-child(1), .other-day:nth-child(6), .other-day:nth-child(7),
   }
 
   .img__today {
-    max-width: 140%;
+    height: 100px;
+    width: 100%;
     padding: 0;
     position: relative;
     left: 185px;
@@ -185,14 +190,28 @@ div.other-day:nth-child(1), .other-day:nth-child(6), .other-day:nth-child(7),
 }
 
 @media screen and (min-width: 541px) and (max-width: 850px)  {
+  body {
+    overflow: auto;
+  }
+  
   .btn-select-location {
     position: relative;
     left: 200px;
     bottom: 441px;
   }
 }
+@media screen and (min-width: 712px) {
+
+  body {
+    overflow: hidden;
+  }
+}
 
 @media screen and (min-width: 851px) {
+  body {
+    overflow: hidden;
+  }
+
   .btn-select-location {
     position: relative;
     left: 450px;
