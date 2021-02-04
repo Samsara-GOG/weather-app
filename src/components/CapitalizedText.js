@@ -1,16 +1,12 @@
-import React from 'react';
+import React from "react";
 class CapitalizedText extends React.Component {
-
   render() {
-    return (
-      jsUcfirst(this.props.text)
-    );
+    return jsUcfirst(this.props.text);
   }
-};
-function jsUcfirst(string) 
-{
+}
+function jsUcfirst(string) {
   if (!string) {
-    return '';
+    return "";
   } else {
     return string.charAt(0).toUpperCase() + string.slice(1);
   }

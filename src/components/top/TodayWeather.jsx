@@ -10,19 +10,19 @@ export default class TodayWeather extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      isSelectLocationOpen: false
+      isSelectLocationOpen: false,
     };
   }
 
   onToggleSelectLocation() {
-    this.setState(prevState => ({
-      isSelectLocationOpen: !prevState.isSelectLocationOpen
+    this.setState((prevState) => ({
+      isSelectLocationOpen: !prevState.isSelectLocationOpen,
     }));
   }
 
   onLocationNameChange(e) {
     this.setState({
-      locationName: e.target.value
+      locationName: e.target.value,
     });
   }
 
@@ -63,7 +63,9 @@ export default class TodayWeather extends React.Component {
                   data-placement={placement}
                 >
                   <div className="form-container">
-                    <label htmlFor="location-name">Recherchez une ville, un pays...</label>
+                    <label htmlFor="location-name">
+                      Recherchez une ville, un pays...
+                    </label>
                     <input
                       id="location-name"
                       type="text"
