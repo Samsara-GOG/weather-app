@@ -176,7 +176,6 @@ div.other-day:nth-child(1), .other-day:nth-child(6), .other-day:nth-child(7),
   }
 
   .img__today {
-    height: 135px;
     max-width: 140%;
     padding: 0;
     position: relative;
