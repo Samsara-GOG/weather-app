@@ -37,8 +37,6 @@ export default class TodayWeather extends React.Component {
     const { isSelectLocationOpen } = this.state;
     const { eventEmitter } = this.props;
 
-    // window.addEventListener("keydown", (e) => 13 === e.key ? alert('a okooo enter') : null);
-
     return (
       <div className="top-container">
         <div className="title">Ma Météo sur 5 jours</div>
