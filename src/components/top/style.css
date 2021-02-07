@@ -54,7 +54,7 @@
 .day, .day2 {
   margin: 0 auto;
   position: relative;
-  bottom: 70px;
+  bottom: 78px;
   text-align: center;
 }
 
@@ -201,18 +201,15 @@ div.other-day:nth-child(1), .other-day:nth-child(6), .other-day:nth-child(7),
   }
 }
 @media screen and (min-width: 712px) {
-
   body {
     overflow: hidden;
   }
 }
 
 @media screen and (min-width: 851px) {
-
   .btn-select-location {
     position: relative;
     left: 450px;
     bottom: 441px;
   }
-
 }
