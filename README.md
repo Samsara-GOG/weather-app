@@ -1,9 +1,15 @@
 # Caractéristiques de cette application
-
+  Front-End React avec Create React App.
   Consommation de promesse grâce au **client HTTP Axios**.  
   Les API utilisées sont **Nominatim** pour récupérer la latitude et la longitude à partir du nom de la ville, et **Openweathermap** pour afficher la météo du jour et des 4 jours suivants.  
   Changement du fond de l'écran en fonction de la météo en jouant sur le DOM.   
-  Utilisation de la librairie **react-popper** pour le menu de recherche de ville avec le bouton de validation   
+  Utilisation de la librairie **react-popper** pour le menu de recherche de ville avec le bouton de validation  
+  
+  # Tester l'application
+  Dans le dossier racine du projet, exécuter : 
+    1) **npm init** pour l'installation des dépendances,
+    2) **npm start** pour le démarrage de l'application.
+  
 ___________________________________________________________
 
 # Getting Started with Create React App
