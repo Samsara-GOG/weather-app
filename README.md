@@ -4,10 +4,6 @@
   Les API utilisées sont **Nominatim** pour récupérer la latitude et la longitude à partir du nom de la ville, et **Openweathermap** pour afficher la météo du jour et des 4 jours suivants.  
   Changement du fond de l'écran en fonction de la météo en jouant sur le DOM.   
   Utilisation de la librairie **react-popper** pour le menu de recherche de ville avec le bouton de validation   
-
-Si vous voulez **tester cette application en la clonant**, il vous sera nécessaire de **posséder une clé d'Api** pour utiliser [Openweather](https://openweathermap.org/), et si vous n'en avez pas, il vous suffira de vous créer un compte gratuit, et de la générer.  
-Ensuite il faudra ajouter cette clé tout au début du fichier **App.js**, après les imports et avant la fonction **App()** comme ci-dessous :   
-    **const WEATHER_API_KEY = 'clé';**
 ___________________________________________________________
 
 # Getting Started with Create React App
