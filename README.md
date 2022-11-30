@@ -16,7 +16,7 @@
 # Tester l'application
   Dans le dossier racine du projet, exécuter :   
     1) `npm install` pour l'installation des dépendances,  
-    2) `npm start` pour le démarrage de l'application.  
+    2) `npm run start` pour le démarrage de l'application.  
   
 ___________________________________________________________
 
