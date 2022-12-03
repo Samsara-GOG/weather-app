@@ -1,8 +1,8 @@
-import React from 'react';
+import React, {Component} from 'react';
 
 import { EventEmitter } from 'events';
 
-export default class Store extends React.Component {
+export default class Store extends Component {
   constructor(props) {
     super(props);
 
