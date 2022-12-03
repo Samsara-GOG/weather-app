@@ -18,9 +18,9 @@ class App extends Component {
 
   updateWeather() {
     const { cityName } = this.state;
-    const URL1 = `https://nominatim.openstreetmap.org/search/${cityName}?format=json&limit=1`;
+    const COORD_URL = `https://nominatim.openstreetmap.org/search/${cityName}?format=json&limit=1`;
     axios
-      .get(URL1)
+      .get(COORD_URL)
       .then((res) => {
         return res.data;
       })
@@ -28,9 +28,9 @@ class App extends Component {
         const latitude = data[0].lat;
         const longitude = data[0].lon;
 
-        const URL2 = `https://api.openweathermap.org/data/2.5/onecall?lat=${latitude}&lon=${longitude}&appid=${WEATHER_KEY}&units=metric&lang=fr&exclude=minutely,hourly,alerts`;
+        const CITY_URL = `https://api.openweathermap.org/data/2.5/onecall?lat=${latitude}&lon=${longitude}&appid=${WEATHER_KEY}&units=metric&lang=fr&exclude=minutely,hourly,alerts`;
         axios
-          .get(URL2)
+          .get(CITY_URL)
           .then((res) => {
             return res.data;
           })
