@@ -1,9 +1,11 @@
-import React from "react";
-class CapitalizedText extends React.Component {
+import React, {Component} from "react";
+
+class CapitalizedText extends Component {
   render() {
     return jsUcfirst(this.props.text);
   }
 }
+
 function jsUcfirst(string) {
   if (!string) {
     return "";
