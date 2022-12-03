@@ -1,10 +1,9 @@
 import React, { Component } from "react";
-import "./App.css";
+import axios from "axios";
 
+import "./App.css";
 import TodayWeather from "./components/top/TodayWeather";
 import OtherDayWeather from "./components/bottom/OtherDayWeather";
-
-import axios from "axios";
 
 const WEATHER_KEY = "27d368348c8c19ef439a7407b82d0808";
 
