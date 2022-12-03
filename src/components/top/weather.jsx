@@ -1,7 +1,8 @@
-import React from "react";
+import React, {Component} from "react";
+
 import CapitalizedText from "../CapitalizedText";
 
-export default class Weather extends React.Component {
+export default class Weather extends Component {
   constructor(props) {
     super(props);
   }
