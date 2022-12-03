@@ -1,12 +1,10 @@
-import React from "react";
-
+import React, {Component} from "react";
+import { Manager, Reference, Popper } from "react-popper";
 import "./style.css";
 
 import Weather from "./weather";
 
-import { Manager, Reference, Popper } from "react-popper";
-
-export default class TodayWeather extends React.Component {
+export default class TodayWeather extends Component {
   constructor(props) {
     super(props);
     this.state = {
